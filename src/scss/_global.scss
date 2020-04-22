@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1;
+    color: $grey;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: $dark;
+}
+
+.container {
+    max-width: 1505px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
