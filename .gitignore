@@ -2,8 +2,5 @@
 *.AppleDouble
 *.LSOverride
 *.vs
-*.json
 
 node_modules/
-gulpfile.js
-

@@ -31,8 +31,27 @@ a {
     color: $dark;
 }
 
-.container {
+h2 {
+    margin: 0;
+}
+
+.container-fluid {
     max-width: 1505px;
     padding: 0 5px;
     margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+.group-title {
+    font-family: "Roboto";
+    font-size: 1.95rem;
+    font-weight: 900;
+    color: #323232;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
